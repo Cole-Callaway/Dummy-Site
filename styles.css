@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  font-family: "Hubballi", cursive;
+}
+
+header {
+  background-color: brown;
+  width: 100vw;
+  height: 50px;
+}
+
+header h1 {
+  text-align: center;
+}
+
+main {
+  /* margin: 0 0 0 280px; */
+  padding: 60px;
+  height: 800px;
+  /*   background-color: #F6E9DF; */
+  background-image: url(https://drive.google.com/uc?export=view&id=1QmkHIYW3Cw1T4DegsxQd6GuBHUE3dyCr);
+  background-size: cover;
+  text-align: left;
+}
+
+.Descript {
+  background-color: #b7a98f;
+  height: 370px;
+  width: 300px;
+  border-radius: 20px;
+}
+
+div > h2 {
+  font-size: 36px;
+  text-align: center;
+  border-bottom: 2px double black;
+}
+
+.Fav {
+  background-color: #b7a98f;
+  height: 250px;
+  border-radius: 20px;
+}
+
+div > ol {
+  font-size: 35px;
+}
+
+button {
+  
+  margin-top: 40px;
+  font-size: 40px;
+  background-color: transparent;
+  border: 2px solid #21ebff;
+  border-radius: 5px;
+  color: white;
+}
+
+button:hover {
+  background: #21ebff;
+  color: #111;
+  box-shadow: 0 0 50px #21ebff;
+}
+
+button:active {
+    transform: scale(2, 2) rotate(45deg);
+ 
+}
